@@ -12,7 +12,7 @@ def Abrir(pos,click=1):
 print("Bienvanide")
 time.sleep(2)
 #variables de exel
-Exel = r'C:\Users\Studio\Desktop\PROGR\WhatsappHiperviculo\Enviar.xlsx'
+Exel = r'\Enviar.xlsx'
 df = pandas.read_excel(Exel, sheet_name='Hoja1')
 url = 'https://web.whatsapp.com/send?phone=+54'
 print("Se cargaron los datos de Exel")
